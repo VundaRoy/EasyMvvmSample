@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MvvmExample.App" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.Data.FakeDatabaseLayer" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\FakeDatabaseLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.Helpers.SelectedItemToItemsSource" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Converters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MvvmExample.Helpers.DialogCloser" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Helpers\DialogCloser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.Helpers.RelayCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MvvmExample.Model.Person" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAEAAAAAAEEAAAAAgAAAIAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MvvmExample.Model.PersonnelBusinessObject" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAEAIAAgEAAAAAAAABAAAAAAAAEAAAAAAgAAEg=</HashCode>
+      <FileName>Model\PersonelBusinessObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.Model.PocoPerson" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\PocoPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.Properties.Resources" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.ViewModel.MainWindow" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.ViewModel.Window1" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Window1.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.ViewModel.ViewModelBase" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgCAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MvvmExample.ViewModel.ViewModelMain">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAACAAAAgAAAAAAAgggAAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.ViewModel.ViewModelWindow1" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAAAAEAAAgAAAAAAAAAAAIAAAAAAAAAAAACAA=</HashCode>
+      <FileName>ViewModel\ViewModelWindow1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.ViewModel.ViewModelWindow2" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAgAAIAkAAAAAAABAAgAAAAAAAAAACCAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelWindow2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.ViewModel.ViewModelWindow3" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQIAAAAAIAEAAAAAAAAAAgAAAAAAAhggAAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelWindow3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.ViewModel.ViewModelWindow4" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQIAAAAAIAEAAAAAAAAAAgAAAAAAAhggAAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelWindow4.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MvvmExample.ViewModel.ViewModelWindow5" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAIAAJAAEEgEACAAAAgBAAAAARBgIIAAAQAGAAQ=</HashCode>
+      <FileName>ViewModel\ViewModelWindow5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.View.Window2" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Window2.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.View.Window3" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Window3.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.View.Window4" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Window4.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvvmExample.View.Window5" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Window5.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MvvmExample.Helpers.IClosableViewModel" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\IClosableViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
