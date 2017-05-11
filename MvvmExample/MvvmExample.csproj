@@ -70,6 +70,7 @@
     <Compile Include="ViewModel\ViewModelWindow3.cs" />
     <Compile Include="ViewModel\ViewModelWindow4.cs" />
     <Compile Include="ViewModel\ViewModelWindow5.cs" />
+    <Compile Include="ViewModel\vmCustomclass.cs" />
     <Compile Include="View\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
