@@ -9,7 +9,7 @@
     <Window.Resources>
         <vm:ViewModelMain x:Key="ViewModelMain"/>
     </Window.Resources>
-    <Grid>
+    <Grid Background="#FFCFEAC5">
     	<Grid.RowDefinitions>
     		<RowDefinition Height="0.939*"/>
     		<RowDefinition Height="Auto"/>
@@ -24,10 +24,10 @@
                     <StackPanel>
                     	<StackPanel Orientation="Horizontal">
                     		<ListBox ItemsSource="{Binding People}" SelectedItem="{Binding SelectedPerson}" DisplayMemberPath="FirstName" HorizontalAlignment="Left"/>
-                    		<DataGrid ItemsSource="{Binding People}" SelectedItem="{Binding SelectedPerson}" HorizontalAlignment="Left" Margin="5,0,0,0"/>
+                    		<DataGrid ItemsSource="{Binding People}" SelectedItem="{Binding SelectedPerson}" HorizontalAlignment="Left" Margin="5,0,0,0" Background="Beige"/>
 	                        <ComboBox ItemsSource="{Binding People}" SelectedItem="{Binding SelectedPerson}" DisplayMemberPath="FirstName" Margin="5,0,0,5" VerticalAlignment="Top"/>
                     	</StackPanel>
-                        <TextBox x:Name="tb1" Text="{Binding TextProperty1, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+                        <TextBox x:Name="tb1" Text="{Binding TextProperty1, UpdateSourceTrigger=PropertyChanged}" Margin="5" Background="Azure"/>
                         <TextBlock FontWeight="Bold" Margin="5" Text="The TextBox says '"><Run Text="{Binding TextProperty1}"/><Run Text="'"/></TextBlock>
                     </StackPanel>
                 </ScrollViewer>
